@@ -1,19 +1,10 @@
 import React, {useState} from 'react';
 import './Header.scss';
+import Dropdown2 from "../../helpersSCSS/Dropdown";
+import {Link} from "react-scroll";
+import {Dropdown} from "react-bootstrap";
 
 function Header() {
-
-    let [display, setDisplay] = useState(false)
-
-    let burgerActive = () => {
-        setDisplay(true)
-    }
-
-    let burgerDeactive = () => {
-        setDisplay(false)
-    }
-
-
 
     return (
         <>
@@ -24,12 +15,34 @@ function Header() {
 
                         </div>
 
+                        <div className={"DropDown"}>
+                            <Dropdown2 />
+                        </div>
                         <nav className="nav" id="nav">
-                            <a className="nav__link" href="#" data-scroll="#features">Features</a>
-                            <a className="nav__link" href="#" data-scroll="#works">Works</a>
-                            <a className="nav__link" href="#" data-scroll="#team">Our Team</a>
-                            <a className="nav__link" href="#" data-scroll="#reviews">Testimonials</a>
-                            <a className="nav__link" href="#" data-scroll="#download">Download</a>
+                            <a className="nav__link" href="#" > <Link  activeClass="active"
+                                                                       to={"features"}
+                                                                       spy={true}
+                                                                       smooth={true}
+                                                                       offset={-70}
+                                                                       duration={500}>Features</Link></a>
+                            <a className="nav__link" href="#" ><Link  activeClass="active"
+                                                                      to={"works"}
+                                                                      spy={true}
+                                                                      smooth={true}
+                                                                      offset={-70}
+                                                                      duration={500}>Works</Link></a>
+                            <a className="nav__link" href="#" ><Link  activeClass="active"
+                                                                      to={"team"}
+                                                                      spy={true}
+                                                                      smooth={true}
+                                                                      offset={-70}
+                                                                      duration={500}>Team</Link></a>
+                            <a className="nav__link" href="#" ><Link  activeClass="active"
+                                                                      to={"reviews"}
+                                                                      spy={true}
+                                                                      smooth={true}
+                                                                      offset={-70}
+                                                                      duration={500}>Download</Link></a>
                         </nav>
 
                         <button className="burger" type="button" id="navToggle">

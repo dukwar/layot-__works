@@ -1,0 +1,32 @@
+@import "../../helpersSCSS/Container";
+
+
+.download {
+  margin: 100px 0;
+  text-align: center;
+
+  .download__title {
+    color: #2d3033;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+
+  .download__text {
+    color: #2d3033;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  @import "../../helpersSCSS/btn";
+
+
+
+}
+
+
+

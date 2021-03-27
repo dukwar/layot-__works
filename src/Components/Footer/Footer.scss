@@ -1,43 +1,84 @@
 @import "../../helpersSCSS/Container";
 
 .footer {
-  background-color: #c0301c;
-  width: 100%;
+  background-color: #3a3e64;
 
   .footer__inner {
-    width: 100%;
-    height: 310px;
-
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
+    padding: 70px 0;
 
-    .footer__item {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    .footer__block {
+      width: 33.33333%;
+      text-align: center;
+      padding: 0 15px;
 
-      @import "../../helpersSCSS/Social";
-
-      .stick-2 {
-        margin-bottom: 35px;
-      }
-
-      .footer__text {
-        font-size: 12px;
+      .footer__title {
+        margin-bottom: 10px;
         color: #ffffff;
-        font-weight: 400;
-        line-height: 20px;
+        font-size: 14px;
+        font-weight: 700;
         text-transform: uppercase;
       }
     }
 
+    @extend .container
+  }
+
+  .copyright {
+    padding: 20px 0;
+    background-color: #313454;
+
+    .copyright__text {
+      color: #808080;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22.5px;
+      text-align: center;
+      position: relative;
+
+      .copyright__text span {
+        color: #fff;
+        padding-left: 2px;
+      }
+
+      .heart {
+        width: 10px;
+      }
+
+      @extend .container
+    }
 
   }
+
+
+
+
+
 }
+
+
+
+
+
+
+
+.footer__address {
+  color: rgba(255,255,255, 0.5);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.5px;
+}
+
+.footer__text {
+  color: rgba(255,255,255, 0.5);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.5px;
+}
+
 
 
 

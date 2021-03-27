@@ -15,6 +15,10 @@
     border-bottom: 1px solid #4d5067;
     align-items: center;
 
+    .DropDown {
+      display: none;
+    }
+
     .nav {
       display: flex;
       font-size: 13px;
@@ -81,4 +85,14 @@
 
 .burger__item:after {
   bottom: -8px;
+}
+
+@media (max-width: 991px) {
+  .header .header__inner .nav {
+    display: none;
+  }
+
+  .header .header__inner .DropDown {
+    display: block;
+  }
 }
