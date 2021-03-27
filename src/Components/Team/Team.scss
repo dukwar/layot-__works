@@ -1,0 +1,63 @@
+@import "../../helpersSCSS/Container";
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.team {
+  margin: 100px 0 70px;
+
+  .team__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+    .team__item {
+      width: 25%;
+      padding: 0 15px;
+      margin-bottom: 30px;
+      overflow: hidden;
+
+      .team__photo {
+        display:block;
+        min-width: 100%;
+        height: auto;
+        margin-bottom: 17px;
+      }
+
+      .team__name {
+        font-size: 22px;
+        font-weight: 400;
+        color: #2d3033;
+        margin-bottom: 8px;
+      }
+
+      .team__prof {
+        font-size: 13px;
+        font-weight: 400;
+        color: #e84545;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+
+      }
+
+      .team__text {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #6c7279;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

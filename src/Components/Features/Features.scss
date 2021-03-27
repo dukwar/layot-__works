@@ -1,0 +1,44 @@
+@import "../../helpersSCSS/Container";
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0;
+
+  .features__item {
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 40px;
+    margin: 25px 0;
+    cursor: pointer;
+
+    .features__icon {
+      margin-bottom: 25px;
+    }
+
+    .features__title {
+      font-size: 14px;
+      color: #2d3033;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .features__text {
+      font-size: 14px;
+      color: #6c7279;
+      font-weight: 400;
+      line-height: 21px;
+    }
+  }
+
+  @extend .container
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+@import "../../helpersSCSS/Container";
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  height: 750px;
+  background-color: #2a2e48;
+  background-image: url("../../img/fone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .intro__inner {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 970px;
+    text-align: center;
+
+    .intro__title {
+      margin: 0 0 30px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 65px;
+      line-height: 71px;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+
+    }
+    .intro__subtitle{
+      line-height: 33px;
+      color: #ffffff;
+      font-size: 22px;
+      margin-bottom: 70px;
+      font-weight: 400;
+    }
+
+    @import "../../helpersSCSS/btn";
+
+    @extend .container
+  }
+
+}
