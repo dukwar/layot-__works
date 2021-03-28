@@ -39,15 +39,6 @@ let Dropdown2 = (props:any) => {
                     offset={-70}
                     duration={500}>Our Team</Link>
                     </Dropdown.Item>
-                <Dropdown.Item href="#/action-1">
-                    <Link  activeClass="active"
-                           to={"team"}
-                           spy={true}
-                           smooth={true}
-                           offset={-70}
-                           duration={500}>Testimonials</Link>
-
-                    </Dropdown.Item>
                 <Dropdown.Item href="#/action-2">
                     <Link  activeClass="active"
                            to={"reviews"}

@@ -62,6 +62,19 @@
   }
 }
 
+@media (max-width: 1300px) {
+
+  .works .works__item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .works .works__item {
+    width: 100%;
+  }
+}
+
 
 
 

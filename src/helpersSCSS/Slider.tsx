@@ -18,8 +18,8 @@ let Slider = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Douglas Everett </h3>
+                    <p>Problems should not push you in the back, but dreams should lead you forward. </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -30,8 +30,8 @@ let Slider = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Ralph Emerson</h3>
+                    <p>You will not grow unless you try to accomplish something beyond what you already know perfectly. </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -42,8 +42,8 @@ let Slider = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Albert Einstein</h3>
+                    <p>You will never be able to solve a problem that has arisen if you keep the same mindset and the same approach that led you to this problem. </p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

@@ -35,7 +35,23 @@
   @extend .container
 }
 
+@media (max-width: 991px) {
+  .features .features__item {
+    width: 50%;
+  }
+}
 
+@media (max-width: 767px) {
+  .features {
+    margin: 40px 0;
+
+    & .features__item {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
 
 
 

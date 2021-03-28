@@ -29,15 +29,13 @@ function Team() {
                                 <Google/>
                                 <LinkedIn/>
                                 <Twitter/>
-
                             </div>
-
                         </div>
 
                         <div className="team__item">
                             <img src={Team2} alt="" className="team__photo"/>
-                            <div className="team__name">Ruth Woods</div>
-                            <div className="team__prof">Founder, CEO</div>
+                            <div className="team__name">Timothy Reed</div>
+                            <div className="team__prof">Co-Founder, Developer</div>
                             <div className="team__text">
                                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
                                     massa
@@ -50,15 +48,13 @@ function Team() {
                                 <Google/>
                                 <LinkedIn/>
                                 <Twitter/>
-
                             </div>
-
                         </div>
 
                         <div className="team__item">
                             <img src={Team3} alt="" className="team__photo"/>
-                            <div className="team__name">Ruth Woods</div>
-                            <div className="team__prof">Founder, CEO</div>
+                            <div className="team__name">Victoria Valdez</div>
+                            <div className="team__prof">UI Designer</div>
                             <div className="team__text">
                                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
                                     massa
@@ -71,15 +67,13 @@ function Team() {
                                 <Google/>
                                 <LinkedIn/>
                                 <Twitter/>
-
                             </div>
-
                         </div>
 
                         <div className="team__item">
                             <img src={Team4} alt="" className="team__photo"/>
-                            <div className="team__name">Ruth Woods</div>
-                            <div className="team__prof">Founder, CEO</div>
+                            <div className="team__name">Beverly Little</div>
+                            <div className="team__prof">Data Scientist</div>
                             <div className="team__text">
                                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
                                     massa
